@@ -8,7 +8,7 @@
     <title>Trump/Pence 2020!!!</title>
     <!-- aFrame -->
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-    <!-- <script src="./assets/js/iPhone.js"></script> -->
+    <script src="./assets/js/iPhone.js"></script>
     <script>
         AFRAME.registerComponent('play-pause', {
             init: function () {
@@ -33,12 +33,11 @@
             <img id="play" src="./assets/images/play.png">
             <img id="pause" src="./assets/images/pause.png">
             <video id="trumpEntrance" src="./assets/video/360_trump_entrance_the-villages_FL.mp4" loop="true"></video>
-            <video id="trumpMarineOne" src="./assets/video/360_trump_marine-one-landing_the-villages_FL.mp4" loop="true"></video>
         </a-assets>
         <a-camera position="0 0 0">
             <a-cursor color="	#00ffff" opacity="1"></a-cursor>
         </a-camera>
-        <a-videosphere src="#trumpMarineOne" rotation="0 -90 0" webkit-playsinline playsinline></a-videosphere>
+        <a-videosphere src="#trumpEntrance" rotation="0 -90 0" webkit-playsinline playsinline></a-videosphere>
         <a-image id="videoControls" src="#play" position="0 0 -2" scale="0.2 0.2 0.2" play-pause opacity="0.5"></a-image>
     </a-scene>
 </body>
