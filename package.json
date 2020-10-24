@@ -1,0 +1,20 @@
+{
+  "name": "trump2020",
+  "version": "1.0.0",
+  "description": "Trump 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WideSpreadX/trump2020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WideSpreadX/trump2020/issues"
+  },
+  "homepage": "https://github.com/WideSpreadX/trump2020#readme"
+}
